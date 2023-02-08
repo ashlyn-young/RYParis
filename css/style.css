@@ -1,0 +1,37 @@
+header{
+    background-color: #eea92a;
+    
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 35%;
+}
+
+footer{
+    background-color: #eea92a;
+    margin-top: 100px;
+}
