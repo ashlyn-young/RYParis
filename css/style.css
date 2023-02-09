@@ -1,7 +1,7 @@
 body{
     max-width: 1280px;
-    margin-left: 260px;
-    margin-right: 260px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -52,6 +52,7 @@ footer{
     padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
+    font-weight: bolder;
 
 }
 .copyRight{
@@ -87,6 +88,11 @@ h1 {
     margin-left: 10%;
     font-weight: bold;
 }
+.cover {
+    object-fit: cover;
+    width: 355px;
+    height: 200px;
+}
 .everydayParagraph {
     display: flex;
     margin-top: -10px;
@@ -121,6 +127,7 @@ h1 {
 .healthyContainer {
     background-color: #d2e1e6;
     width: 100%;
+    padding-bottom: 20px;
 }
 .healthyWeek {
     display: flex;
