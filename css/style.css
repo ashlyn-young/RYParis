@@ -120,6 +120,7 @@ h1 {
     flex-direction: row;
     justify-content: flex-start;
     gap: 15px;
+    margin-bottom: 30px;
 
 }
 .healthyImageRow {
@@ -205,4 +206,39 @@ h1 {
     width: 95%;
     font-size: 20px;
     font-weight: lighter;
+}
+.timeContainer {
+    background-color: #d2e1e6;
+    width: 100%;
+}
+.description {
+    background-color: #d2e1e6;
+    width: 80%;
+    margin-left: 
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.quickInfo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.quickInfo2 {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.bengalCover {
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 385px
 }
