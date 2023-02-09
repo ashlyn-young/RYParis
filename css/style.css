@@ -25,6 +25,12 @@ nav {
     display: flex;
     flex-direction: row;
     margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: rgb(65, 55, 55);
 }
 .logo{
     display: flex;
@@ -37,6 +43,7 @@ nav {
     align-items: center;
     margin-left: 25%;
     margin-top: 15px;
+
 }
 footer{
     background-color: #eea92a;
@@ -152,6 +159,7 @@ h1 {
     flex-direction: column;
     width: 85%;
     margin-left: 10%;
+    margin-top: 10px;
     font-weight: bold;
 
 }
