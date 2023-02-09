@@ -70,17 +70,23 @@ footer{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 150px;
-    margin-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
 }
 .everydayParagraph {
     display: flex;
     margin-top: -10px;
     width: 80%;
 }
+.imageRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .everydaySmallImages{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     /* width: 200px;
     height: 150px; */
     object-fit:cover;
