@@ -210,6 +210,17 @@ h1 {
 .timeContainer {
     background-color: #d2e1e6;
     width: 100%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
+.timeContainer h1 {
+    display: flex;
+    margin-bottom: -10px;
+    margin-left: 8%;
+}
+.timeContainer h3 {
+    display: flex;
+    margin-bottom: 0px;
 }
 .description {
     background-color: #d2e1e6;
@@ -223,18 +234,24 @@ h1 {
 .column {
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
+    margin-left: 8%;
+    /* flex-direction: column; */
 }
 .quickInfo {
     display: flex;
     justify-content: space-evenly;
-    flex-direction: row;
+    flex-direction: column;
+    margin-right:10%;
+    /* flex-direction: row; */
 
 }
 .quickInfo2 {
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: -45px;
 }
 .bengalCover {
     object-fit: cover;
@@ -262,4 +279,8 @@ h1 {
     flex-direction: column;
     list-style: decimal;
     gap: 10px;
+}
+.topImage2 {
+    object-fit: cover;
+    margin-bottom: -5px;
 }
