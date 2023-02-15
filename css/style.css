@@ -1,5 +1,6 @@
 body{
     max-width: 1280px;
+    min-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Montserrat', sans-serif;
@@ -89,6 +90,7 @@ h1 {
     font-weight: bold;
 }
 .logoCover {
+    display: flex;
     object-fit: cover;
     width: 235px;
     height: 100px;
