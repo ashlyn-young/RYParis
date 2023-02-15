@@ -224,12 +224,12 @@ h1 {
 }
 .description {
     background-color: #d2e1e6;
-    width: 80%;
-    margin-left: 
-    font-size: 20px;
+    width: 58%;
+    font-size: 19px;
     font-weight: bold;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    padding: 1% 5% 1% 5%;
 }
 .column {
     display: flex;
@@ -253,15 +253,37 @@ h1 {
     margin-left: 20px;
     margin-top: -45px;
 }
+.textOnImage2 {
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 24%;
+    background-color: #ffffff;
+    font-size: 32px;
+    font-weight: bold;
+    padding: 7px 10px 7px 10px;
+}
 .bengalCover {
     object-fit: cover;
     object-position: top;
     width: 100%;
     height: 385px
 }
+.bengalDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.reviews {
+    font-weight: bolder;
+    font-size: 16px;
+}
 .bengalRecipe {
     display: flex;
     justify-content: flex-start;
+    width: 100%;
+    margin-left: 11%;
+    margin-bottom: 150px;
 }
 .ingredientList{
     display: flex;
@@ -271,6 +293,10 @@ h1 {
     gap: 5px;
     margin-left: 5%;
     width: 100%;
+    font-size: 16px;
+}
+.directionsList h1 {
+    margin-bottom: 0px;
 }
 .directionsList {
     display: flex;
@@ -278,9 +304,22 @@ h1 {
     padding-right: 20%;
     flex-direction: column;
     list-style: decimal;
-    gap: 10px;
+    gap: 35px;
+    margin-left: 13%;
 }
 .topImage2 {
     object-fit: cover;
     margin-bottom: -5px;
+    margin-top: -5px;
+}
+.saveRecipe {
+    background-color: #a71313;
+    border-radius: 10px;
+    border-color: #a71313;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 1em;
+    display: inline-flex;
+    margin-top: 3px;
+    margin-bottom: 30px;
 }
